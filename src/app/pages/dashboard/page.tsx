@@ -16,7 +16,7 @@ const Dashboard = () => {
     'http://3.34.3.172:8090/photoism/v1/admin/payment/find/top-up?size=10&page=1&sort=desc',
     fetcher
   );
-  console.log('data', data);
+  console.log('data 12', data);
   return <>Peter me gege</>;
 };
 export default Dashboard;

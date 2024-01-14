@@ -1,0 +1,12 @@
+.loginForm {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: #d9d9d954;
+  .formLayer {
+    background: white;
+    padding: 30px 30px 5px 30px;
+    border-radius: 20px;
+  }
+}

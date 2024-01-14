@@ -3,15 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": " next dev",
+    "dev": "explorer http://localhost:3000 & next dev",
+    "open-browser": "open http://localhost:3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/cssinjs": "^1.18.1",
+    "antd": "^5.12.2",
+    "axios": "^1.6.5",
     "next": "13.5.6",
     "react": "^18",
     "react-dom": "^18",
+    "sass": "^1.69.5",
     "swr": "^2.2.4"
   },
   "devDependencies": {
